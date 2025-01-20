@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickBite - Food Delivery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <header id="navbar">
+      <div class="logo">
+        <h1>QuickBite</h1>
+        <img src="./assets/logo-icon.png" alt="Logo" />
+      </div>
+
+      <!-- Navbar with Menu Toggle for Small Screens -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#payment">Payment</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+        <!-- Hamburger Menu Icon -->
+        <div class="menu-icon" id="menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>QuickBite</h2>
+        <p>Fast, Fresh, Delivered to Your Doorstep</p>
+        <button onclick="window.location.href='#menu'">Order Now</button>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-choose-us">
+      <h2>Why Choose Us?</h2>
+      <div class="features">
+        <div class="feature">
+          <img src="./assets/fastdelivery.png" alt="Fast Delivery" />
+          <h3>Fast Delivery</h3>
+          <p>Get your favorite meals delivered to your doorstep in no time!</p>
+        </div>
+        <div class="feature">
+          <img src="./assets/varietyfood.png" alt="Variety of Food" />
+          <h3>Wide Range of Food</h3>
+          <p>
+            Explore a wide range of cuisines from local favorites to
+            international delights.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./assets/securepayment.png" alt="Secure Payment" />
+          <h3>Secure Payment</h3>
+          <p>Order with confidence using our secure payment system.</p>
+        </div>
+        <div class="feature">
+          <img src="./assets/support.png" alt="24/7 Support" />
+          <h3>24/7 Support</h3>
+          <p>
+            We’re here for you around the clock to make your experience
+            seamless.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="./assets/burger.png" alt="Burger" />
+          <p>Burger</p>
+          <p>190</p>
+        </div>
+        <div class="menu-item">
+          <img src="./assets/pizza.png" alt="Pizza" />
+          <p>Pizza</p>
+          <p>300</p>
+        </div>
+        <div class="menu-item">
+          <img src="./assets/sushi.png" alt="Sushi" />
+          <p>Sushi</p>
+          <p>300</p>
+        </div>
+        <div class="menu-item">
+          <img src="./assets/pasta.png" alt="Pasta" />
+          <p>Pasta</p>
+          <p>250</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us">
+      <h2>Watch Our Story</h2>
+      <div class="video-container">
+        <!-- Embed YouTube video with iframe -->
+        <iframe
+          src="https://www.youtube.com/embed/y9qZG14ppq4?si=6WgflkHMVmvCPA1P"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Payment Section -->
+    <section id="payment" class="payment">
+      <h2>Secure Payment Methods</h2>
+      <p>
+        We offer a variety of secure and easy payment options for your
+        convenience. Choose the method that suits you best.
+      </p>
+
+      <div class="payment-methods">
+        <div class="payment-method">
+          <img src="./assets/icons8-paypal-48.png" alt="PayPal" />
+          <h3>PayPal</h3>
+          <p>
+            Fast and secure online payments. Easily link your bank account or
+            credit card for smooth transactions.
+          </p>
+        </div>
+
+        <div class="payment-method">
+          <img src="./assets/icons8-credit-card-94.png" alt="Credit Card" />
+          <h3>Credit Card</h3>
+          <p>
+            We accept all major credit cards. Make a quick and hassle-free
+            payment directly through your card.
+          </p>
+        </div>
+
+        <div class="payment-method">
+          <img src="./assets/icons8-google-pay-48.png" alt="Google Pay" />
+          <h3>Google Pay</h3>
+          <p>
+            Pay directly from your phone with Google Pay. Fast, simple, and
+            secure with just a tap.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p>&copy; 2025 QuickBite. All Rights Reserved.</p>
+      <p>Contact: info@quickbite.com | Phone: 123-456-7890</p>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

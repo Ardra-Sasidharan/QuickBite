@@ -1,0 +1,381 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+#navbar .logo h1 {
+  display: inline-block;
+  font-size: 2.2rem;
+  color: #2e4a33;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar .logo img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6f61;
+}
+
+/* Hamburger Menu Styles */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.hero {
+  background-image: url("https://wallpapercave.com/wp/wp4289147.jpg");
+  background-size: cover;
+
+  background-position: center;
+  text-align: center;
+  padding: 11.5rem 1rem;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+button {
+  padding: 1rem 2rem;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e67e22;
+}
+
+.why-choose-us {
+  background: linear-gradient(to bottom, #ffffff, #eaf8ea);
+  color: #333;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: grey;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.feature {
+  background: linear-gradient(to bottom, #ffffff, #eaf8ea);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1.5rem;
+  border-radius: 50%;
+  border: 3px solid #e6e6e6;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+#menu {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#menu h2 {
+  font-size: 2.8rem;
+  color: #2e4a33;
+  margin-bottom: 3rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 3px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+  justify-items: center;
+}
+
+.menu-item {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  text-align: center;
+  padding: 2rem 1rem;
+  max-width: 300px;
+  border: 1px solid #e1e1e1;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  background-color: #f1f9f1;
+}
+
+.menu-item img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 2px solid #e1e1e1;
+}
+
+.menu-item p {
+  margin: 0.5rem 0;
+  font-family: "Poppins", sans-serif;
+  color: #555;
+}
+
+.menu-item p:first-of-type {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.menu-item p:last-of-type {
+  font-size: 1.4rem;
+  color: #4caf50;
+  font-weight: 500;
+}
+
+#about-us {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #ffffff, #f0fff0);
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+#about-us h2 {
+  font-size: 2.6rem;
+  color: #2e4a33;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.video-container:hover iframe {
+  transform: scale(1.05);
+}
+
+#payment {
+  padding: 4rem 2rem;
+  background-color: #f7faf7;
+  text-align: center;
+}
+
+#payment h2 {
+  font-size: 2.8rem;
+  color: #2e4a33;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+}
+
+#payment p {
+  font-size: 1.2rem;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.payment-method {
+  text-align: center;
+  width: 200px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment-method:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.payment-method img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1.2rem;
+}
+
+.payment-method h3 {
+  font-size: 1.4rem;
+  color: #2e4a33;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.payment-method p {
+  font-size: 1rem;
+  color: #777;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+footer .social-links a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .social-links a:hover {
+  color: #f39c12;
+}
